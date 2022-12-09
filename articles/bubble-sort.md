@@ -74,3 +74,7 @@ void BubbleSort(int v[], int n)
     }
 }
 ```
+
+### Bibliografie
+
+1. _<https://en.wikipedia.org/wiki/Bubble_sort>_
