@@ -19,7 +19,7 @@ export default function Article({ articleData }) {
           <Date date={date} />
         </h2>
         <div
-          className="prose prose-lg my-16 prose-headings:font-normal prose-a:underline-offset-8 hover:prose-a:text-gray-500 dark:prose-invert dark:text-lightGray dark:prose-headings:text-almostWhite dark:prose-a:font-normal dark:prose-a:text-almostWhite hover:dark:prose-a:text-lightGray dark:prose-blockquote:border-l-lightGray dark:prose-blockquote:text-lightGray dark:prose-strong:font-normal dark:prose-strong:text-almostWhite dark:prose-pre:bg-almostBlack lg:prose-xl"
+          className="prose prose-lg my-16 prose-headings:font-normal prose-a:break-words prose-a:underline-offset-8 hover:prose-a:text-gray-500 dark:prose-invert dark:text-lightGray dark:prose-headings:text-almostWhite dark:prose-a:font-normal dark:prose-a:text-almostWhite hover:dark:prose-a:text-lightGray dark:prose-blockquote:border-l-lightGray dark:prose-blockquote:text-lightGray dark:prose-strong:font-normal dark:prose-strong:text-almostWhite dark:prose-pre:bg-almostBlack lg:prose-xl"
           dangerouslySetInnerHTML={{ __html: contentHtml }}
         />
       </article>
