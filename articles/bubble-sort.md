@@ -15,7 +15,7 @@ Memorie: **$O(1)$**
 
 ## Exemplu pas cu pas
 
-Fie vectorul **[5, 1, 4, 2, 8]**. Vrem să sortăm numerele crescător folosind bubble sort. La fiecare parcurgere, elementele scrise cu **bold** sunt comparate. Vom avea nevoie de 3 parcurgeri.
+Fie vectorul **[ 5 1 4 2 8 ]**. Vrem să sortăm numerele crescător folosind bubble sort. La fiecare parcurgere, elementele scrise cu **bold** sunt comparate. Vom avea nevoie de 3 parcurgeri.
 
 **Prima parcurgere**
 
@@ -31,7 +31,7 @@ Fie vectorul **[5, 1, 4, 2, 8]**. Vrem să sortăm numerele crescător folosind 
 [ 1 2 **4 5** 8 ] &rarr; [ 1 2 **4 5** 8 ]  
 [ 1 2 4 **5 8** ] &rarr; [ 1 2 4 **5 8** ]
 
-Acum, vectorul este deja sortat, însă algoritmul nu știe dacă și-a terminat treaba. Mai avem nevoie de încă o parcurgere unde nu facem nicio interschimbare pentru a ști că am terminat de sortat.
+Acum, vectorul este deja sortat, însă algoritmul nu știe dacă și-a terminat treaba. Mai avem nevoie de încă o parcurgere unde nu facem nicio interschimbare.
 
 **A treia parcurgere**
 
@@ -42,11 +42,13 @@ Acum, vectorul este deja sortat, însă algoritmul nu știe dacă și-a terminat
 
 ## Implementare
 
-Bubble sort se poate implementa astfel în C++:
+Un exemplu de implementare în C++:  
+_(unde elementele sunt numere întregi pe care le sortăm crescător)_
 
 ```cpp
 // v: Vectorul pe care îl sortăm (indexat de la 0)
-// n: Numărul de elemente
+// n: Numărul de elemente din v
+
 void BubbleSort(int v[], int n)
 {
     bool sortat = false;
@@ -60,9 +62,9 @@ void BubbleSort(int v[], int n)
         {
             if (v[i] > v[i + 1])
             {
-                // În cazul în care găsim două elemente
+                // Dacă găsim două elemente
                 // care nu sunt în ordine crescătoare
-                // putem spune că vectorul încă nu este sortat
+                // atunci vectorul nu este sortat
                 sortat = false;
 
                 // Facem interschimbarea
