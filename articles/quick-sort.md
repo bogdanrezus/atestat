@@ -4,7 +4,7 @@ author: "Oprea Rareș"
 date: "2022-12-30"
 ---
 
-**Quicksort** este un algoritm de sortare eficient, cu scop general. Acesta funcționează prin selectarea unui element "pivot" din vector și împărțirea celorlalte elemente în două sub-mulțimi, în funcție de faptul dacă acestea sunt mai mici sau mai mari decât pivotul. Apoi sub-multimile sunt sortate recursiv, necesitând puțină memorie suplimentară.
+**QuickSort** este un algoritm de sortare eficient, cu scop general. Acesta funcționează prin selectarea unui element "pivot" din vector și împărțirea celorlalte elemente în două sub-mulțimi, în funcție de faptul dacă acestea sunt mai mici sau mai mari decât pivotul. Apoi sub-multimile sunt sortate recursiv, necesitând puțină memorie suplimentară.
 
 Majoritatea implementărilor de tip **quicksort** nu sunt stabile, ceea ce înseamnă că ordinea relativă a elementelor de sortare egală nu este păstrată.
 
@@ -21,8 +21,7 @@ Algoritmul funcționează prin împărțirea vectorului în două sub-mulțimi m
 
 ## Implementare
 
-Un exemplu de implementare în C++:  
-_(unde elementele sunt numere întregi pe care le sortăm crescător)_
+Un exemplu de implementare în C++:
 
 ```cpp
 void QuickSort(int v[], int st, int dr)
@@ -55,6 +54,6 @@ void QuickSort(int v[], int st, int dr)
 
 ### Bibliografie
 
-1. _<https://en.wikipedia.org/wiki/Bubble_sort>_
+1. _<https://en.wikipedia.org/wiki/Quicksort>_
 2. _<https://deepai.org/machine-learning-glossary-and-terms/quicksort-algorithm>_
 3. _<https://www.pbinfo.ro/articole/7666/quicksort>_
