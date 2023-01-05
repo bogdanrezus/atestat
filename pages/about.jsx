@@ -40,8 +40,9 @@ export default function About() {
             className="underline underline-offset-8 hover:text-gray-500 dark:text-almostWhite hover:dark:text-lightGray"
             href="https://github.com/bogdanrezus/atestat"
           >
-            GitHub.
+            GitHub
           </a>
+          .
         </p>
       </section>
       <Link
