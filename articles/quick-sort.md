@@ -1,6 +1,6 @@
 ---
-title: "Sortarea QuickSort"
-author: "Oprea Rareș"
+title: "Quick Sort"
+author: "Rareș Oprea"
 date: "2022-12-30"
 ---
 

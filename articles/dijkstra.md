@@ -1,6 +1,6 @@
 ---
 title: "Algoritmul lui Dijkstra"
-author: "Oprea Rareș"
+author: "Rareș Oprea"
 date: "2022-12-30"
 ---
 

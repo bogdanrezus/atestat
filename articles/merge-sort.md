@@ -1,6 +1,6 @@
 ---
-title: "Sortarea MergeSort"
-author: "Oprea Rareș"
+title: "Merge Sort"
+author: "Rareș Oprea"
 date: "2022-12-30"
 ---
 
