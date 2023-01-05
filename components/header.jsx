@@ -8,7 +8,7 @@ export default function Header() {
           className="text-3xl hover:text-gray-500 dark:text-almostWhite dark:hover:text-lightGray"
           href="/"
         >
-          Atestat
+          Algoblog
         </Link>
         <div className="flex items-center justify-between space-x-5">
           <Link

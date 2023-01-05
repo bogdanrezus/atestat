@@ -5,17 +5,43 @@ export default function About() {
   return (
     <div className="p-5">
       <Head>
-        <title>Despre noi - Atestat</title>
+        <title>Despre noi</title>
       </Head>
       <section>
         <h1 className="my-16 text-5xl dark:text-almostWhite">Despre noi</h1>
-        <p className="max-w-3xl text-xl leading-9 dark:text-lightGray">
-          Lorem ipsum dolor sit, amet consectetur adipisicing elit. Voluptate
-          tempore eos neque quas totam corporis minus doloremque nisi. Repellat
-          recusandae culpa eaque, ipsam delectus, aliquam rerum optio molestiae
-          deleniti dolorum cumque nostrum cum commodi tempore iste inventore
-          ipsa iusto veniam architecto alias quidem modi eius voluptatibus eos?
-          Autem, asperiores mollitia.
+        <p className="max-w-3xl py-2 text-2xl leading-9 dark:text-lightGray">
+          Algoblog este un blog despre diverse teme creat de Bogdan Rezuș și
+          Rareș Oprea pentru atestatul la informatică.
+        </p>
+        <p className="max-w-3xl py-2 text-2xl leading-9 dark:text-lightGray">
+          Site-ul este construit folosind{" "}
+          <a
+            className="underline underline-offset-8 hover:text-gray-500 dark:text-almostWhite hover:dark:text-lightGray"
+            href="https://nextjs.org/"
+          >
+            Next.js
+          </a>
+          ,{" "}
+          <a
+            className="underline underline-offset-8 hover:text-gray-500 dark:text-almostWhite hover:dark:text-lightGray"
+            href="https://tailwindcss.com/"
+          >
+            Tailwind CSS
+          </a>{" "}
+          și{" "}
+          <a
+            className="underline underline-offset-8 hover:text-gray-500 dark:text-almostWhite hover:dark:text-lightGray"
+            href="https://www.markdownguide.org/getting-started/"
+          >
+            Markdown
+          </a>
+          . Proiectul este pe{" "}
+          <a
+            className="underline underline-offset-8 hover:text-gray-500 dark:text-almostWhite hover:dark:text-lightGray"
+            href="https://github.com/bogdanrezus/atestat"
+          >
+            GitHub.
+          </a>
         </p>
       </section>
       <Link
